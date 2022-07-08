@@ -2,10 +2,9 @@ package com.example.simulator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import com.example.simulator.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivityKotlin : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding // será inicializado com atraso no onCreate
 
@@ -16,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         //val tvHello = findViewById<TextView>(R.id.tvHello)
 
         binding = ActivityMainBinding.inflate(layoutInflater) // Quando inicializar o onCreate o elemento será criado
-        binding.tvHello.text = "Teste"
+        setContentView(binding.root)
+
+        binding.tvHello.text = "Teste" // Text HardCode não recomendado
     }
 }
