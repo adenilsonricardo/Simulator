@@ -17,6 +17,6 @@ class MainActivityKotlin : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater) // Quando inicializar o onCreate o elemento será criado
         setContentView(binding.root)
 
-        binding.tvHello.text = "Teste" // Text HardCode não recomendado
+        //binding.tvHello.text = "Teste" // Text HardCode não recomendado
     }
 }
