@@ -3,7 +3,7 @@ package com.example.simulator.domain
 import com.google.gson.annotations.SerializedName
 
 data class Match(
-    @SerializedName("descrição")
+    @SerializedName("descricao")
     val description: String,
     @SerializedName("local")
     val place: Place,
