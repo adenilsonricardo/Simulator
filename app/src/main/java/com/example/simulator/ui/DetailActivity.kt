@@ -7,6 +7,9 @@ import com.example.simulator.databinding.ActivityMainBinding
 
 class DetailActivity : AppCompatActivity() {
 
+    object Extras{
+        const val MATCH = "EXTRA_MATCH"
+    }
 
     private lateinit var binding: ActivityDetailBinding
 
