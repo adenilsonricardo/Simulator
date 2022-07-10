@@ -19,6 +19,7 @@ Teoria e pratica de Componentes, Layouts e UI/UX Em Apps Android e criação de 
 - Modelando uma API no GitHub:
   - Criado um repositório no GitHub para simular uma API;
   - Configurado GitHub Pages;
+  - Repositório com a API: https://github.com/adenilsonricardo/matches-simulator-api;
 - Criado Modelos Entidades Java e Kotlin;
 - Bibliotecas Retrofit e Glide:
   - Retrofit Java;
